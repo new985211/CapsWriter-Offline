@@ -1,5 +1,5 @@
 # ==========================
-# Python 相关（必加）
+# Python
 # ==========================
 __pycache__/
 *.py[cod]
@@ -15,50 +15,52 @@ venv.bak/
 *.pyo
 *.pyd
 .venv/
-
-# 虚拟环境
 .conda/
 condaenv/
 
-# 日志文件
+# ==========================
+# 运行时 / 依赖 (构建产物，不上传)
+# ==========================
+internal/
+runtime/
+deps/
+deps-arm64/
+sysdeps/
+sysdeps-arm64/
+cpython-*.tar.gz
+uv-*.tar.gz
+
+# ==========================
+# 模型文件 (从 GitHub Releases 单独下载)
+# ==========================
+models/
+
+# ==========================
+# 日志
+# ==========================
 logs/
 log/
 *.log
-debug.log
-error.log
 
-# 模型文件 / 缓存
-*.bin
-*.pth
-*.pkl
-*.h5
-*.model
-*.onnx
-*.cache
-.cache/
+# ==========================
+# Windows 可执行文件 (Linux 下无用)
+# ==========================
+*.exe
+
+# ==========================
+# Claude Code 本地配置
+# ==========================
+.claude/
 
 # ==========================
 # 前端 / 静态文件
 # ==========================
 node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
 dist/
 build/
-*.tmp
 
 # ==========================
-# Linux / Kylin V10 系统文件
-# ==========================
-*~
-.DS_Store
-.directory
-.Trash-*
-lost+found/
-
-# ==========================
-# IDE 编辑器配置（VSCode / PyCharm）
+# IDE / 编辑器
 # ==========================
 .idea/
 .vscode/
@@ -69,8 +71,12 @@ lost+found/
 *.iml
 
 # ==========================
-# 系统临时文件
+# 系统杂项
 # ==========================
+.DS_Store
+.directory
+.Trash-*
+lost+found/
 *.tmp
 *.temp
 *.bak
