@@ -1,5 +1,5 @@
 # CapsWriter Offline v2.6 — Linux 离线语音转文字
-[国内用户可以看](https://gitee.com/new211/caps-writer-offline)
+[国内用户可以看gitee仓库](https://gitee.com/new211/caps-writer-offline)
 CapsWriter Offline 是一个**客户端-服务端架构**的离线语音识别工具。支持**麦克风实时录入**和**音视频文件转录**，无需网络。
 
 ```
