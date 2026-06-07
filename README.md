@@ -125,7 +125,7 @@ class ServerConfig:
 
 | 模型 | 当前状态 |
 |------|------|
-| SenseVoice Small | ✅ 已就绪 (452MB) |
+| SenseVoice Small | ⚠️ 需下载 |
 | Qwen3-ASR 1.7B | ⚠️ 需下载 |
 | Fun-ASR-Nano | ⚠️ 需下载 |
 | ForceAligner | ⚠️ 需下载（Qwen3-ASR 生成精确时间戳时需要） |
